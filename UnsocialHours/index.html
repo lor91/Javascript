@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Techops Unsocial Hours Calculator</title>
+  </head>
+  <body>
+    <h1>Techops Unsocial Hours Calculator</h1>
+    <body>
+
+      <h2>Select your team to generate the table.</h2>
+      <p>Click on the "EXPORT REPORT" button to export as excel file</p>
+      <p>You will need to manually copy over the data</p>
+      <p>IMPORTANT! It's your responsibility to make sure the data is correct, this tool is in beta and may still have unforeseen bugs!</p>
+      <h3>Current Limitations:</h3>
+      <p>---If you select the wrong team REFRESH the page to clear the table, it will use the first one you click</p>
+      <p>------You can copy / paste the exported table data straight into the OT form, but you'll want to manually replace the numbers for the hours as the exported numbers aren't considered integers and the sums at the bottom of the form won't work. </p> 
+      <p>---The tool will calculate date using only the date the shift started, if you don't want to claim the full 11 hours on a night shift you begin on the final day of the month you'll need to edit this manually.</p>
+      <p>---Bank holidays need to be added manually.</p>
+      <p>---If your shift occurs during a Daylight Savings time change I haven't coded anything for that, so I don't know what, if anything, will happen.</p>
+      <h3>Bug reports:</h3>
+      <p>Please email mike.mockler@nhs.net and include 'UnsocialCalc' in the subject heading.</p>
+      
+      
+      </body>
+      </html>
+      
+    <div>
+      <button id="btnA" type="button">TEAM A</button>
+      <button id="btnB" type="button">TEAM B</button>
+      <button id="btnC" type="button">TEAM C</button>
+      <button id="btnD" type="button">TEAM D</button>
+      <button id="btnExport">EXPORT REPORT</button>
+      <div id="table"></div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/linways/table-to-excel@v1.0.4/dist/tableToExcel.js"></script>
+  </body>
+</html>
