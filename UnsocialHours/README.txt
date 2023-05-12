@@ -2,7 +2,7 @@
 
 This is a small webapp / tool to calculate unsocial hours claims. 
 
-It was mostly created as a project for my own benefit particularly as Nick Walker has already created a similar tool.
+It was mostly created as a project for my own benefit particularly as Nick has already created a similar tool.
 
 At the moment my tools suffers similar limitations to his, as it doesn't split shifts running over the start / end of months and currently adds these as a full shift for the current month.
 
